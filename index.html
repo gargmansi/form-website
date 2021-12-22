@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <from action="" method="post">
+    <label> name </label> <input type="text" name="fname" value="" placeholder="enter your name"> <br><br>
+    <label> password </label> <input type="password" name="" placeholder="password"> <br> <br>
+    <label> Gender  </label> <input type="radio" name="Gender" id="male" > 
+     <label for="male"> male </label> <input type="radio" name="Gender" id="female">
+    <label> female</label> <br> <br>
+    <label>hobbies</label> <input type="checkbox" name="hobby" id="music"><label for="music">music</label>
+    <input type="checkbox" name="hobby" id="football"><label for="football">football</label><br> <br>
+  <label>message</label> <textarea rows="10" cols="60" ></textarea><br><br>
+  
+      <label>country</label> <select name="" size="3" multiple> 
+                               <option value="in">india</option>
+                               <option value="np">nepal</option>
+                              <option value="ch">china</option> 
+                              <option value="pk" selected> pakistan</option>
+      </select><br><br>
+
+      <label>cars</label> <select>
+                      <optgroup label="toyota">
+                        <option>tnnona</option> 
+                        <option>bmw</option> 
+                        <option>aulto</option>
+                      </optgroup>
+                      <optgroup label="Renault">
+                        <option>kwid</option> 
+                        <option>nano</option> 
+                        <option>captur</option>
+                      </optgroup>
+      </select><br><br>
+
+      <label>cars</label> <input list="cars">
+                      <datalist id="cars">
+                       <option value="tnnona">
+                         <option value="kwid">
+                           <option value="nano"></option>
+                      </datalist><br><br>
+
+                      <label>upload file</label> <input type="file" accept="image/*/audio/*" name="" />
+
+   </from>
+</body>
+</html>
